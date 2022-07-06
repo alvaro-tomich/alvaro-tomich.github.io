@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/me-about.jpg'
+//import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {BsBook} from 'react-icons/bs'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
 
       <div className='container about__container'>
         <div className='about__me'>
-          <img className='about__me-image' src={ ME } alt='Me'></img>
+         {/*  <img className='about__me-image' src={ ME } alt='Me'></img> */}
         </div>
         <div className='about__contet'>
           <div className='about__cards'> 
@@ -23,9 +23,9 @@ const About = () => {
               <small>Looking for first job</small>
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ WolrdWide</small>
+              <BsBook className='about__icon'/>
+              <h5>Formation</h5>
+              <small>Student at Trybe</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
@@ -34,7 +34,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ullam? Officiis officia fugiat quas iste, dolores accusamus quos. Quod quaerat cupiditate cumque, eaque dolore molestias culpa aliquam. Deserunt, reprehenderit quas?
+          I'm passionate about Technology and development, I'm looking to improve myself more and more every day to become a FullStack developer. I study web development at Trybe, a school that teaches programming, learning and working.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
